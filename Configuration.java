@@ -30,13 +30,11 @@ public class Configuration {
 	}
 	
 	public void addDisk (int index, int player){
-		// ADD YOUR CODE HERE
 		this.board[index][this.available[index]] = player;
 		this.available[index]++;
 	}
 	
 	public boolean isWinning (int lastColumnPlayed, int player){
-		// ADD YOUR CODE HERE
 		int rowP = this.available[lastColumnPlayed]-1;
 		if ((checkVertical(lastColumnPlayed, player, rowP)==true)||(checkHorizontal(lastColumnPlayed, player, rowP)==true)||(checkDiagonalR(lastColumnPlayed, player, rowP)==true)||(checkDiagonalL(lastColumnPlayed, player, rowP)==true))
 			return true;
@@ -45,7 +43,6 @@ public class Configuration {
 	}
 	
 	public int canWinNextRound (int player){
-		// ADD YOUR CODE HERE
 		int arr[] = new int[7]; int p = 0;
 		for (int i=0; i<arr.length; i++)
 			arr[i] = 1000;
@@ -71,8 +68,7 @@ public class Configuration {
 			return findSmallest(arr);		
 	}
 	
-	public int canWinTwoTurns (int player){
-		// ADD YOUR CODE HERE	
+	public int canWinTwoTurns (int player){	
 		int player2; 
 		if(player==1)
 			player2 = 2;
