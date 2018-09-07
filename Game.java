@@ -34,7 +34,6 @@ public class Game {
 	}
 	
 	public static int getNextMove(BufferedReader keyboard, Configuration c, int player){
-		// ADD YOUR CODE HERE
 		System.out.println("Please enter the column you want to put disk in~");
 		c.print();
 		try 
@@ -63,7 +62,6 @@ public class Game {
 	}
 	
 	public static int movePlayer1 (int columnPlayed2, Configuration c){
-		// ADD YOUR CODE HERE
 		if(c.canWinNextRound(1)!=-1) { 
 			return c.canWinNextRound(1);}
 		else if(c.canWinTwoTurns(1)!=-1)
