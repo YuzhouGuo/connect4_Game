@@ -6,5 +6,6 @@
   * The core part of this assignment is to find the universal rule behind the mathemetical patterns instead of keep making up new conditions, or it's just more and more codes. 
   
 No tester file for this program. 
+
 Since this is a game, you can always tell whether the algorithm works or not by playing with the machine!
 
