@@ -7,5 +7,3 @@
   
 No tester file for this program. 
  * Since this is a game, you can always tell whether the algorithm works or not by playing with the machine!
-
-Start with page 4 of the "A4" pdf file, it gives a instrution about this little-AI assignment.
